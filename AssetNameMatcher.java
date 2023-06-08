@@ -8,12 +8,12 @@ public class AssetNameMatcher {
 
     public static void main(String[] args) {
         // Define the path to your asset folder
-        String assetFolderPath = "/UsersMrRobot/Downloads/Files_for_Final_Delivery"; 
-        // I didnt check yet whether it works with GDrive folder.
+        String assetFolderPath = "path_to_local_folder"; 
+        // it works with GDrive folder if its goes through ur computer *not a browser. Then u need to set the API
     
         // Define the list of names
         List<String> nameList = new ArrayList<>();
-        nameList.add("NameOfTheFile#1");
+        nameList.add("name if 1st file");
 
 
         // Add more names to the list as needed
